@@ -22,5 +22,30 @@ After installation, a new session called "Steam (Big Picture)" will appear in yo
 ## Installation
 Install the package and select the "Steam (Big Picture)" session from your login screen.
 
-## License
-MIT or similar (specify as appropriate)
+### Repository Sources
+
+To install from the Vitex Software repository, add the following to your APT sources:
+
+
+
+```shell
+sudo apt install lsb-release wget apt-transport-https bzip2
+
+
+wget -qO- https://repo.vitexsoftware.com/keyring.gpg | sudo tee /etc/apt/trusted.gpg.d/vitexsoftware.gpg
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/vitexsoftware.gpg]  https://repo.vitexsoftware.com  $(lsb_release -sc) games" | sudo tee /etc/apt/sources.list.d/vitexsoftware-games.list
+sudo apt update
+sudo apt install steam-session
+```
+
+# For Debian Trixie and newer, you can use the following sources list entry:
+
+/etc/apt/sources.list.d/vitexsoftware.sources
+
+```shell
+Types: deb
+URIs: https://repo.vitexsoftware.com/
+Suites: trixie
+Components: games
+Signed-By: /etc/apt/trusted.gpg.d/vitexsoftware.gpg
+```

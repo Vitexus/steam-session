@@ -1,0 +1,7 @@
+[Unit]
+Description=Steam
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/steam-session
+

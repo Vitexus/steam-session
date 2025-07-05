@@ -1,0 +1,13 @@
+Name: x-session-manager
+Link: /usr/bin/x-session-manager
+Alternative: /usr/bin/steam-session
+Dependents:
+  /usr/share/man/man1/x-session-manager.1.gz x-session-manager.1.gz /usr/share/man/man1/steam-session.1.gz
+Priority: 50
+
+Name: x-session-manager
+Link: /usr/bin/x-session-manager
+Alternative: /usr/bin/steam-session
+Dependents:
+  /usr/share/man/man1/x-session-manager.1.gz x-session-manager.1.gz /usr/share/man/man1/steam-session.1.gz
+Priority: 40

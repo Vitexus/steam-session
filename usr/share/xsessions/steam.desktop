@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Steam (Big Picture)
+Name[cs]=Steam (Velký obraz)
+Name[de]=Steam (Big Picture)
+Name[fr]=Steam (Big Picture)
+Name[es]=Steam (Big Picture)
+Name[ru]=Steam (Большой экран)
+Name[zh_CN]=Steam（大屏幕）
+Comment=Start Steam in Big Picture mode
+Comment[cs]=Spustí Steam v režimu Velký obraz
+Comment[de]=Steam im Big Picture-Modus starten
+Comment[fr]=Démarrer Steam en mode Big Picture
+Comment[es]=Iniciar Steam en modo Big Picture
+Comment[ru]=Запустить Steam в режиме Большой экран
+Comment[zh_CN]=以大屏幕模式启动 Steam
+Exec=/usr/bin/steam-session
+Type=Application
+DesktopNames=Steam

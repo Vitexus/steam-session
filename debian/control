@@ -1,0 +1,13 @@
+Source: steam-session
+Section: x11
+Priority: optional
+Maintainer: Vitexus <your@email.com>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+
+Package: steam-session
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: steam
+Description: Steam session for SDDM
+ Adds a new session to SDDM that launches Steam in Big Picture mode for gaming.

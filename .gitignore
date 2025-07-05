@@ -1,0 +1,4 @@
+debian/debhelper-build-stamp
+debian/.debhelper/
+debian/steam-session/
+debian/steam-session.substvars
